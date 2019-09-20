@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="../css/styletest.css">
+</head>
+<body>
+    <div id="contenedor">       
+        <div id="comenzar">Iniciar test</div>
+        <div id="examen" style="display: none">
+            <div id="pregunta"></div>
+            <div id="eImg"></div>
+            <div id="opciones">
+                <div class="opcion" id="A" onclick="checkAnswer('A')"></div>
+                <div class="opcion" id="B" onclick="checkAnswer('B')"></div>
+                <div class="opcion" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="tiempo">
+                <div id="contar"></div>
+                <div id="tiempo1"></div>
+                <div id="tiempo2"></div>
+            </div>
+            <div id="progreso"></div>
+        </div>
+        <div id="contarpuntos" style="display: none">
+            
+        </div>
+        
+    </div>
+    <script src="../js/jstest.js"></script>
+</body>
+</html>

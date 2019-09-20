@@ -1,0 +1,316 @@
+body{
+	margin: 0 !important;
+	padding: 0 !important;
+	background: whitesmoke;
+}
+
+.portada{
+	width: 100%;
+}
+.img_portada{
+	width: 100%;
+	height: 500px;
+}
+.profesor{
+    height: 200px;
+    width: 346px;
+    position: relative;
+    top: 40px;
+    left: 200px;
+    border: solid;
+    border-radius: 40px;
+    border-color: mediumslateblue;
+    background: white;
+}
+.form_profesor {
+    width: 320px;
+    height: 182px;
+    position: relative;
+    left: 4px;
+}
+.user1{
+	font-family: Arial Black;
+}
+.usuario{
+    position: relative;
+    left: 60px;
+    border: solid;
+    border-radius: 7px;
+    height: 30px;
+    border-width: 1px;
+    border-color: darkturquoise;
+    width: 180px;
+}
+.contraseña{
+    position: relative;
+    left: 27px;
+    border: solid;
+    border-radius: 7px;
+    height: 30px;
+    border-width: 1px;
+    border-color: darkturquoise;
+    width: 180px;
+}
+.boton{
+    position: relative;
+    left: 140px;
+    top: 23px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: Arial Black;
+    background: lightgrey;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.tipo{
+    font-family: cooper black;
+    font-size: 20px;
+    color: mediumblue;
+    position: relative;
+    left: 140px;
+    width: 80px;
+}
+.alumno{
+    height: 200px;
+    width: 346px;
+    position: relative;
+    bottom: 166px;
+    left: 682px;
+    border: solid;
+    border-radius: 40px;
+    border-color: mediumslateblue;
+    background: white;
+}
+.form_alumno {
+    width: 320px;
+    height: 182px;
+    position: relative;
+    left: 4px;
+}
+.user2{
+	font-family: Arial Black;
+}
+.usuario2{
+    position: relative;
+    left: 60px;
+    border: solid;
+    border-radius: 7px;
+    height: 30px;
+    border-width: 1px;
+    border-color: darkturquoise;
+    width: 180px;
+}
+.contraseña2{
+    position: relative;
+    left: 27px;
+    border: solid;
+    border-radius: 7px;
+    height: 30px;
+    border-width: 1px;
+    border-color: darkturquoise;
+    width: 180px;
+}
+.boton2{
+    position: relative;
+    left: 140px;
+    top: 23px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: Arial Black;
+    background: lightgrey;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.tipo2{
+    font-family: cooper black;
+    font-size: 20px;
+    color: mediumblue;
+    position: relative;
+    left: 140px;
+    width: 90px;
+}
+.formularios{
+	width: 100%;
+}
+.footer{
+	text-align: center;
+}
+
+@media screen and (max-width:314px){
+  .profesor{
+  	left: 14px;
+  	width: 266px;
+  }
+  .usuario{
+  	width: 135px;
+  	left: 34px;
+  }
+  .contraseña{
+  	width: 135px;
+  	left: 0px;
+  }
+  .boton{
+    top: 15px;
+    position: relative;
+    left: auto;
+    left: 100px;
+  }
+  .alumno{
+  	left: 14px;
+  	width: 266px;
+  	top: 115px;
+  }
+  .usuario2{
+  	width: 135px;
+  	left: 34px;
+
+  }
+  .contraseña2{
+  	width: 135px;
+  	left: 0px;
+  }
+  .boton2{
+    top: 15px;
+    position: relative;
+    left: auto;
+    left: 100px;
+  }
+  .formularios{
+  	height: 600px;
+  }
+  .form_alumno{
+  	width: 260px;
+  }
+  .form_profesor{
+  	width: 260px;
+  }
+}
+@media screen and (max-width:354px) and (min-width: 315px){
+  .profesor{
+  	left: 14px;
+  	width: 266px;
+  }
+  .usuario{
+  	width: 135px;
+  	left: 34px;
+  }
+  .contraseña{
+  	width: 135px;
+  	left: 0px;
+  }
+  .boton{
+    top: 15px;
+    position: relative;
+    left: auto;
+    left: 100px;
+  }
+  .alumno{
+  	left: 14px;
+  	width: 266px;
+  	top: 115px;
+  }
+  .usuario2{
+  	width: 135px;
+  	left: 34px;
+
+  }
+  .contraseña2{
+  	width: 135px;
+  	left: 0px;
+  }
+  .boton2{
+    top: 15px;
+    position: relative;
+    left: auto;
+    left: 100px;
+  }
+  .formularios{
+  	height: 600px;
+  }
+  .form_alumno{
+  	width: 260px;
+  }
+  .form_profesor{
+  	width: 260px;
+  }
+}
+@media screen and (max-width:378px) and (min-width: 355px) {
+  .profesor{
+  	left: 14px;
+  	width: 300px;
+  }
+  .usuario{
+  	width: 135px;
+  }
+  .contraseña{
+  	width: 135px;
+  }
+  .boton{
+    top: 50px;
+    position: relative;
+    left: auto;
+    left: 100px;
+  }
+  .alumno{
+  	left: 14px;
+  	width: 310px;
+  	top: 115px;
+  }
+  .usuario2{
+  	width: 135px;
+  }
+  .contraseña2{
+  	width: 135px;
+  }
+  .boton2{
+    top: 50px;
+    position: relative;
+    left: auto;
+    left: 100px;
+  }
+  .formularios{
+  	height: 600px;
+  }
+  .form_alumno{
+  	width: 300px;
+  }
+  .form_profesor{
+  	width: 300px;
+  }
+}
+@media screen and (max-width:634px) and (min-width: 379px) {
+  .profesor{
+  	left: 100px;
+  }
+  .alumno{
+  	left: 100px;
+  	top: 100px;
+  }
+  .formularios{
+  	height: 600px;
+  }
+}
+@media screen and (max-width:1018px) and (min-width: 635px) {
+  .alumno{
+  	width: 300px;
+  	left: 317px;
+  }
+  .profesor{
+  	width: 300px;
+  	left: 3px;
+  }
+  .usuario{
+  	left: 32px;
+  }
+  .contraseña{
+  	left: 0px;
+  }
+  .usuario2{
+  	left: 32px;
+  }
+  .contraseña2{
+  	left: 0px;
+  }
+}
